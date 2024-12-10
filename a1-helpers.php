@@ -23,9 +23,9 @@
   /**
    * Inc
    */
-  import(A1H_DIR . '/inc/static.php');
-  import(A1H_DIR . '/inc/helpers.php');
-  import(A1H_DIR . '/inc/hooks.php');
-  import(A1H_DIR . '/inc/ajax.php');
-  import(A1H_DIR . '/inc/shortcode.php');
+  require(A1H_DIR . '/inc/static.php');
+  require(A1H_DIR . '/inc/helpers.php');
+  require(A1H_DIR . '/inc/hooks.php');
+  require(A1H_DIR . '/inc/ajax.php');
+  require(A1H_DIR . '/inc/shortcode.php'); 
 }
